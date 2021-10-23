@@ -81,7 +81,6 @@ interface IERC20 {
     event Approval(address indexed owner, address indexed spender, uint256 value);
 }
 
-// SPDX-License-Identifier: MIT
 // OpenZeppelin Contracts v4.3.2 (token/ERC20/extensions/IERC20Metadata.sol)
 /**
  * @dev Interface for the optional metadata functions from the ERC20 standard.
@@ -105,7 +104,6 @@ interface IERC20Metadata is IERC20 {
     function decimals() external view returns (uint8);
 }
 
-// SPDX-License-Identifier: MIT
 // OpenZeppelin Contracts v4.3.2 (utils/Context.sol)
 /**
  * @dev Provides information about the current execution context, including the
@@ -127,7 +125,6 @@ abstract contract Context {
     }
 }
 
-// SPDX-License-Identifier: MIT
 // OpenZeppelin Contracts v4.3.2 (token/ERC20/ERC20.sol)
 /**
  * @dev Implementation of the {IERC20} interface.
